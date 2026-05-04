@@ -81,7 +81,6 @@ create or replace file format util_db.public.PIPE_DBLQUOTE_HEADER_CR
 
 show stages in account; 
 
-
 list @util_db.public.aws_s3_bucket;
 
 copy into  intl_db.public.INT_STDS_ORG_3166
@@ -171,6 +170,8 @@ on n_regionkey = r_regionkey;
 
 select * 
 from intl_db.public.INT_STDS_ORG_3166;
+
+select * from intl_db.public.INT_STDS_ORG_3166;
 
 
 create table intl_db.public.CURRENCIES 
